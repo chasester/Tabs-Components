@@ -76,7 +76,13 @@
   background-color: #931d25;
   border-right: 1px solid white;
   color: #ffffff;
-  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: auto;
 }
 .tabs .tabs-link:hover {
   background-color: #be2530;
